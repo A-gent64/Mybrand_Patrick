@@ -1,0 +1,1611 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+a{
+  text-decoration: none;
+}
+nav a{
+  list-style: none;
+  font-size: 32px;
+  text-decoration: none;}
+
+ul, li {
+	list-style: none;
+}
+.blog-1z6 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.portfolio-itW {
+  margin-right: 45.5rem;
+  margin-left: 3.5rem;
+  display: flex;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 0.8859375;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+nav{
+  margin-bottom: 0.4rem;
+  display: flex;
+  column-gap: 2.6rem;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: .4rem;
+}
+.home {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.work {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.blog-nav {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #0d478c;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.contact {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.skills {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.blog {
+  display: relative;
+  margin-top: 10rem;
+  margin-left:3.5rem ;
+  font-size: 4.4rem;
+  font-weight: 700;
+  color: #0d478c;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  
+}
+main {
+  box-sizing: border-box;
+  padding-top: 12.6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+}
+frame {
+  margin: 0rem 0.003rem 11.7rem 0rem;
+  width: calc(100% - 0.0026rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+}
+#error
+{
+  color: red;
+  position:relative;
+  font-size: 2rem;
+  font-family: roboto condensed ,'source sans pro';
+  display: flex;
+  right: -70rem;
+
+}
+
+#cards {
+  
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  height: 47.1rem;
+  display:flex;
+  flex-wrap: wrap;
+  column-gap: 6.8026rem;
+  align-items: center;
+  flex-shrink: 0;
+  flex-flow: wrap;
+}
+.poster {
+  box-sizing: border-box;
+  width: 34.7974rem;
+  height: 100%;
+  flex-shrink: 0;
+  border-color: rgb(196, 153, 153);
+  border: 2px 2px red;
+  border-radius: 9px;
+  background-color: #aac4de;
+}
+#picture {
+  margin-bottom: 1.7686rem;
+  width: 100%;
+  height: 23.8rem;
+  background-color: rgba(30, 124, 176, 0.7799999714);
+  border-radius: 0.6rem;
+}
+#title {
+  margin: 0rem 0rem 0.631rem 0.719rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+#poster-text {
+  margin: 0rem 0rem 0.6rem 0.7rem;
+  width: 31.7rem;
+  height: 11.8rem;
+}
+#descript {
+  max-width: 31.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+}
+.icons {
+  margin: 0rem 4.397rem 3.1rem 2.9rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  width: calc(100% - 7.2974rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.like{
+  margin: 0.116rem 1.1rem 0rem 0rem;
+  width: 2rem;
+  height: 1.7163rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-like {
+  margin-right: 6.3833rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.view{
+  margin-right: 1.0834rem;
+  width: 1.8333rem;
+  height: 1.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-view {
+  margin-right: 6.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.comment {
+  margin-right: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-comment {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.vector-8-a2r {
+  margin-bottom: 0rem;
+  width: 34.7974rem;
+  height: 0rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.work-list-mobile-WSJ {
+  width: 34.7974rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.rectangle-30-TMY {
+  margin-bottom: 1.7686rem;
+  width: 34.4rem;
+  height: 23.8rem;
+  background-color: rgba(30, 124, 176, 0.7799999714);
+  border-radius: 0.6rem;
+}
+footer
+{
+  display: flex;
+  margin-top:10rem;
+  position:relative;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tech-world-NjQ {
+  margin: 0rem 0rem 0.631rem 0.719rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-fsw4-hFt {
+  margin: 0rem 0rem 0.6rem 0.7rem;
+  width: 31.7rem;
+  height: 11.8rem;
+}
+.amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet-Rxa {
+  max-width: 31.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+}
+.frame-3896-ucr {
+  margin: 0rem 4.397rem 3.1rem 2.9rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  width: calc(100% - 7.2974rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.icon-park-outline-like-QZc {
+  margin: 0.116rem 1.1rem 0rem 0rem;
+  width: 2rem;
+  height: 1.7163rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-7yp {
+  margin-right: 6.3833rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.swm-icon-pack-eyeopen-FaE {
+  margin-right: 1.0834rem;
+  width: 1.8333rem;
+  height: 1.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-zXp {
+  margin-right: 6.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mdi-comment-8tv {
+  margin-right: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-Uxn {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.vector-8-ESA {
+  margin-bottom: 0rem;
+  width: 34.7974rem;
+  height: 0rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.work-list-mobile-Aai {
+  width: 34.7974rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.rectangle-30-icE {
+  margin-bottom: 1.7686rem;
+  width: 34.4rem;
+  height: 23.8rem;
+  background-color: rgba(30, 124, 176, 0.7799999714);
+  border-radius: 0.6rem;
+}
+.tech-world-ekn {
+  margin: 0rem 0rem 0.631rem 0.719rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-rhzn-Aj8 {
+  margin: 0rem 0rem 0.6rem 0.7rem;
+  width: 31.7rem;
+  height: 11.8rem;
+}
+.amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet-GGN {
+  max-width: 31.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+}
+.frame-3896-hca {
+  margin: 0rem 4.397rem 3.1rem 2.9rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  width: calc(100% - 7.2974rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.icon-park-outline-like-ne2 {
+  margin: 0.116rem 1.1rem 0rem 0rem;
+  width: 2rem;
+  height: 1.7163rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-iGn {
+  margin-right: 6.3833rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.swm-icon-pack-eyeopen-qsC {
+  margin-right: 1.0834rem;
+  width: 1.8333rem;
+  height: 1.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-mF4 {
+  margin-right: 6.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mdi-comment-tqU {
+  margin-right: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-oSe {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.vector-8-Wbx {
+  margin-bottom: 0rem;
+  width: 34.7974rem;
+  height: 0rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.auto-group-ux5l-3rn {
+  margin-bottom: 12.9rem;
+  width: 100%;
+  height: 47.1rem;
+  display: flex;
+  column-gap: 6.8026rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.work-list-mobile-ykS {
+  width: 34.7974rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.rectangle-30-7re {
+  margin-bottom: 1.7686rem;
+  width: 34.4rem;
+  height: 23.8rem;
+  background-color: rgba(30, 124, 176, 0.7799999714);
+  border-radius: 0.6rem;
+}
+.tech-world-3kJ {
+  margin: 0rem 0rem 0.631rem 0.719rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-kq98-mgJ {
+  margin: 0rem 0rem 0.6rem 0.7rem;
+  width: 31.7rem;
+  height: 11.8rem;
+}
+.amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet-7EN {
+  max-width: 31.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+}
+.frame-3896-Bk2 {
+  margin: 0rem 4.397rem 3.1rem 2.9rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  width: calc(100% - 7.2974rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.icon-park-outline-like-W1c {
+  margin: 0.116rem 1.1rem 0rem 0rem;
+  width: 2rem;
+  height: 1.7163rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-ReN {
+  margin-right: 6.3833rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.swm-icon-pack-eyeopen-ZEn {
+  margin-right: 1.0834rem;
+  width: 1.8333rem;
+  height: 1.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-6kW {
+  margin-right: 6.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mdi-comment-SpN {
+  margin-right: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-o98 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.vector-8-XL2 {
+  width: 34.7974rem;
+  height: 0rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.work-list-mobile-UWA {
+  width: 34.7974rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.rectangle-30-DyY {
+  margin-bottom: 1.7686rem;
+  width: 34.4rem;
+  height: 23.8rem;
+  background-color: rgba(30, 124, 176, 0.7799999714);
+  border-radius: 0.6rem;
+}
+.tech-world-ZGi {
+  margin: 0rem 0rem 0.631rem 0.719rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-sewx-UuU {
+  margin: 0rem 0rem 0.6rem 0.7rem;
+  width: 31.7rem;
+  height: 11.8rem;
+}
+.amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet-pCe {
+  max-width: 31.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+}
+.frame-3896-gke {
+  margin: 0rem 4.397rem 3.1rem 2.9rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  width: calc(100% - 7.2974rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.icon-park-outline-like-PQA {
+  margin: 0.116rem 1.1rem 0rem 0rem;
+  width: 2rem;
+  height: 1.7163rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-7b4 {
+  margin-right: 6.3833rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.swm-icon-pack-eyeopen-T98 {
+  margin-right: 1.0834rem;
+  width: 1.8333rem;
+  height: 1.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-bFL {
+  margin-right: 6.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mdi-comment-Kx2 {
+  margin-right: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-5RQ {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.vector-8-2bY {
+  width: 34.7974rem;
+  height: 0rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.work-list-mobile-nKp {
+  width: 34.7974rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.rectangle-30-8uU {
+  margin-bottom: 1.7686rem;
+  width: 34.4rem;
+  height: 23.8rem;
+  background-color: rgba(30, 124, 176, 0.7799999714);
+  border-radius: 0.6rem;
+}
+.tech-world-UCe {
+  margin: 0rem 0rem 0.631rem 0.719rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-y3uq-Q6J {
+  margin: 0rem 0rem 0.6rem 0.7rem;
+  width: 31.7rem;
+  height: 11.8rem;
+}
+.amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet-Xwc {
+  max-width: 31.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+}
+.frame-3896-1rn {
+  margin: 0rem 4.397rem 3.1rem 2.9rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  width: calc(100% - 7.2974rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.icon-park-outline-like-vyk {
+  margin: 0.116rem 1.1rem 0rem 0rem;
+  width: 2rem;
+  height: 1.7163rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-TTt {
+  margin-right: 6.3833rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.swm-icon-pack-eyeopen-nm4 {
+  margin-right: 1.0834rem;
+  width: 1.8333rem;
+  height: 1.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-Wwx {
+  margin-right: 6.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mdi-comment-GAS {
+  margin-right: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-1dp {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.vector-8-m7C {
+  width: 34.7974rem;
+  height: 0rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.auto-group-nwy6-Waa {
+  margin-bottom: 12.9rem;
+  width: 100%;
+  height: 47.1rem;
+  display: flex;
+  column-gap: 6.8026rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.work-list-mobile-3qQ {
+  width: 34.7974rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.rectangle-30-o3t {
+  margin-bottom: 1.7686rem;
+  width: 34.4rem;
+  height: 23.8rem;
+  background-color: rgba(30, 124, 176, 0.7799999714);
+  border-radius: 0.6rem;
+}
+.tech-world-jCS {
+  margin: 0rem 0rem 0.631rem 0.719rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-xca2-4Ei {
+  margin: 0rem 0rem 0.6rem 0.7rem;
+  width: 31.7rem;
+  height: 11.8rem;
+}
+.amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet-bEe {
+  max-width: 31.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+}
+.frame-3896-U3Y {
+  margin: 0rem 4.397rem 3.1rem 2.9rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  width: calc(100% - 7.2974rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.icon-park-outline-like-z1t {
+  margin: 0.116rem 1.1rem 0rem 0rem;
+  width: 2rem;
+  height: 1.7163rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-uuY {
+  margin-right: 6.3833rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.swm-icon-pack-eyeopen-FCi {
+  margin-right: 1.0834rem;
+  width: 1.8333rem;
+  height: 1.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-Bs4 {
+  margin-right: 6.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mdi-comment-Vsk {
+  margin-right: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-EqL {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.vector-8-nM4 {
+  width: 34.7974rem;
+  height: 0rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.work-list-mobile-XpS {
+  width: 34.7974rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.rectangle-30-5qx {
+  margin-bottom: 1.7686rem;
+  width: 34.4rem;
+  height: 23.8rem;
+  background-color: rgba(30, 124, 176, 0.7799999714);
+  border-radius: 0.6rem;
+}
+.tech-world-cL6 {
+  margin: 0rem 0rem 0.631rem 0.719rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-kemc-M2n {
+  margin: 0rem 0rem 0.6rem 0.7rem;
+  width: 31.7rem;
+  height: 11.8rem;
+}
+.amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet-HBL {
+  max-width: 31.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+}
+.frame-3896-Z8r {
+  margin: 0rem 4.397rem 3.1rem 2.9rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  width: calc(100% - 7.2974rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.icon-park-outline-like-Tk2 {
+  margin: 0.116rem 1.1rem 0rem 0rem;
+  width: 2rem;
+  height: 1.7163rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-TtS {
+  margin-right: 6.3833rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.swm-icon-pack-eyeopen-bze {
+  margin-right: 1.0834rem;
+  width: 1.8333rem;
+  height: 1.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-jqx {
+  margin-right: 6.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mdi-comment-H6n {
+  margin-right: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-pcW {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.vector-8-Zpz {
+  width: 34.7974rem;
+  height: 0rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.work-list-mobile-7bc {
+  width: 34.7974rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.rectangle-30-Fxi {
+  margin-bottom: 1.7686rem;
+  width: 34.4rem;
+  height: 23.8rem;
+  background-color: rgba(30, 124, 176, 0.7799999714);
+  border-radius: 0.6rem;
+}
+.tech-world-C7G {
+  margin: 0rem 0rem 0.631rem 0.719rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-eu14-X9Y {
+  margin: 0rem 0rem 0.6rem 0.7rem;
+  width: 31.7rem;
+  height: 11.8rem;
+}
+.amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet-3dg {
+  max-width: 31.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+}
+.frame-3896-vBg {
+  margin: 0rem 4.397rem 3.1rem 2.9rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  width: calc(100% - 7.2974rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.icon-park-outline-like-RPL {
+  margin: 0.116rem 1.1rem 0rem 0rem;
+  width: 2rem;
+  height: 1.7163rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-wsU {
+  margin-right: 6.3833rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.swm-icon-pack-eyeopen-5in {
+  margin-right: 1.0834rem;
+  width: 1.8333rem;
+  height: 1.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-cyc {
+  margin-right: 6.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mdi-comment-NC6 {
+  margin-right: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-hEN {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.vector-8-1kr {
+  width: 34.7974rem;
+  height: 0rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.auto-group-jywi-kCe {
+  margin-bottom: 0rem;
+  width: 100%;
+  height: 47.1rem;
+  display: flex;
+  column-gap: 6.8026rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.work-list-mobile-so4 {
+  width: 34.7974rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.rectangle-30-RZg {
+  margin-bottom: 1.7686rem;
+  width: 34.4rem;
+  height: 23.8rem;
+  background-color: rgba(30, 124, 176, 0.7799999714);
+  border-radius: 0.6rem;
+}
+.tech-world-ZA6 {
+  margin: 0rem 0rem 0.631rem 0.719rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-5oxs-swU {
+  margin: 0rem 0rem 0.6rem 0.7rem;
+  width: 31.7rem;
+  height: 11.8rem;
+}
+.amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet-p62 {
+  max-width: 31.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+}
+.frame-3896-spz {
+  margin: 0rem 4.397rem 3.1rem 2.9rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  width: calc(100% - 7.2974rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.icon-park-outline-like-zPp {
+  margin: 0.116rem 1.1rem 0rem 0rem;
+  width: 2rem;
+  height: 1.7163rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-QTY {
+  margin-right: 6.3833rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.swm-icon-pack-eyeopen-yQA {
+  margin-right: 1.0834rem;
+  width: 1.8333rem;
+  height: 1.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-uYi {
+  margin-right: 6.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mdi-comment-FMg {
+  margin-right: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-bAe {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.vector-8-wEW {
+  width: 34.7974rem;
+  height: 0rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.work-list-mobile-V18 {
+  width: 34.7974rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.rectangle-30-dd8 {
+  margin-bottom: 1.7686rem;
+  width: 34.4rem;
+  height: 23.8rem;
+  background-color: rgba(30, 124, 176, 0.7799999714);
+  border-radius: 0.6rem;
+}
+.tech-world-NKp {
+  margin: 0rem 0rem 0.631rem 0.719rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-decn-hcz {
+  margin: 0rem 0rem 0.6rem 0.7rem;
+  width: 31.7rem;
+  height: 11.8rem;
+}
+.amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet-Ecv {
+  max-width: 31.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+}
+.frame-3896-iHC {
+  margin: 0rem 4.397rem 3.1rem 2.9rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  width: calc(100% - 7.2974rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.icon-park-outline-like-cdU {
+  margin: 0.116rem 1.1rem 0rem 0rem;
+  width: 2rem;
+  height: 1.7163rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-jTC {
+  margin-right: 6.3833rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.swm-icon-pack-eyeopen-g7Y {
+  margin-right: 1.0834rem;
+  width: 1.8333rem;
+  height: 1.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-D7U {
+  margin-right: 6.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mdi-comment-9G2 {
+  margin-right: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-tUW {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.vector-8-36W {
+  width: 34.7974rem;
+  height: 0rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.work-list-mobile-PgA {
+  width: 34.7974rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.rectangle-30-99Y {
+  margin-bottom: 1.7686rem;
+  width: 34.4rem;
+  height: 23.8rem;
+  background-color: rgba(30, 124, 176, 0.7799999714);
+  border-radius: 0.6rem;
+}
+.tech-world-USi {
+  margin: 0rem 0rem 0.631rem 0.719rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-xtqi-CNi {
+  margin: 0rem 0rem 0.6rem 0.7rem;
+  width: 31.7rem;
+  height: 11.8rem;
+}
+.amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet-WeJ {
+  max-width: 31.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+}
+.frame-3896-PCJ {
+  margin: 0rem 4.397rem 3.1rem 2.9rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  width: calc(100% - 7.2974rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.icon-park-outline-like-uAe {
+  margin: 0.116rem 1.1rem 0rem 0rem;
+  width: 2rem;
+  height: 1.7163rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-Dx2 {
+  margin-right: 6.3833rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.swm-icon-pack-eyeopen-N4E {
+  margin-right: 1.0834rem;
+  width: 1.8333rem;
+  height: 1.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-6W2 {
+  margin-right: 6.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mdi-comment-3AN {
+  margin-right: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11-PV8 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.vector-8-LfG {
+  width: 34.7974rem;
+  height: 0rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+button {
+  width: fit-content;
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  font-size: 2rem;
+  justify-content: center;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  border: #0d478c;
+  background-color: #0d478c;
+  flex-shrink: 0;
+}
+.contact-section-LHt {
+  box-sizing: border-box;
+  padding: 0rem 2.4rem 2.6rem 2.4rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.lets {
+  left: 2.3rem;
+  position: absolute;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.3125;
+  align-items: flex-start;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.contact-section-content-aCE {
+  width: 100%;
+  height: 23.2rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.contact-info-vG6 {
+  margin-right: 15.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-animaappcom-this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-animaappcom-UYW {
+  margin-bottom: 4.2rem;
+  max-width: 44.3rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5882352941;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.social-links-8sx {
+  box-sizing: border-box;
+  padding: 0.3rem 0.299rem 0.3rem 0.45rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.discord-rox {
+  margin: 0.15rem 3.506rem 0rem 0rem;
+  width: 2.4938rem;
+  height: 2.85rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.facebook-azr {
+  margin-right: 3.15rem;
+  width: 2.7rem;
+  height: 2.7rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.dribbble-8Fg {
+  margin-right: 3.1503rem;
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nstagram-fWW {
+  margin: 0.007rem 3.149rem 0rem 0rem;
+  width: 2.7012rem;
+  height: 2.7054rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.behance-PhQ {
+  margin-bottom: 0.0002rem;
+  width: 3.0013rem;
+  height: 1.8806rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.contact-form-iza {
+  width: 45.3rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.input-fields-HXt {
+  margin-bottom: 2.4rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.input-field-S9t {
+  margin-bottom: 1.2rem;
+  box-sizing: border-box;
+  padding: 1.6rem 2.4rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5882352941;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #f3f3f3;
+  flex-shrink: 0;
+}
+.input-field-7mp {
+  box-sizing: border-box;
+  padding: 1.6rem 2.4rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5882352941;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #f3f3f3;
+  flex-shrink: 0;
+}
+.button-dEN {
+  width: 18.5rem;
+  height: 7.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #2d2d2d;
+}

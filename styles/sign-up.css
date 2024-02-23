@@ -1,0 +1,313 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a{
+  text-decoration: none;
+}
+nav a{
+  list-style: none;
+  font-size: 32px;
+  text-decoration: none;}
+
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 125rem;
+}.sign-up-LV1 {
+  box-sizing: border-box;
+  padding: 0.9rem 1.039rem 4.832rem 1.039rem;
+  width: 100%;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.auto-group-ff31-ry9 {
+  margin: 0rem 1.961rem 7.235rem 0rem;
+  width: calc(100% - 1.9612rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.portfolio-zpT {
+  margin: 0.065rem 25.861rem 0rem 0rem;
+  display: flex;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 0.8859375;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-361-ikT {
+  margin-bottom: 0.465rem;
+  display: flex;
+  column-gap: 5rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-Txw {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-1Uf {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.work-kh9 {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.blog-JTm {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.contact-eGj {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-Pk7 {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up-Yd1 {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #0d478c;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.loin-tRy {
+  margin-right: 1.9612rem;
+  width: 64.1rem;
+  height: 68.1678rem;
+  position: relative;
+  backdrop-filter: blur(1.5rem);
+  background-color: rgba(255, 255, 255, 0.3000000119);
+  border-radius: 4rem;
+  box-shadow: 0 0.4rem 7rem rgba(0, 0, 0, 0.1000000015);
+  flex-shrink: 0;
+}
+.sign-up-Qv7 {
+  width: 11.5rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 11.7rem;
+  top: 11.7rem;
+  display: flex;
+  font-size: 3.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #0d478c;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.email-iR1 {
+  width: 3.1rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 12rem;
+  top: 19.0697rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #2a1e17;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-kehz-E8T {
+  box-sizing: border-box;
+  padding: 1.191rem 2.2rem 1.191rem 2.2rem;
+  width: 40rem;
+  height: 4.0819rem;
+  position: absolute;
+  left: 12.1rem;
+  top: 21.2259rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #bcbec0;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #000000;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+.auto-group-mgef-rfd {
+  box-sizing: border-box;
+  padding: 1.191rem 2.2rem 1.191rem 2.2rem;
+  width: 40rem;
+  height: 4.0819rem;
+  position: absolute;
+  left: 11.8rem;
+  top: 38.8796rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #bcbec0;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #000000;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+.confirm-password-Vib {
+  width: 10.1rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 11.7rem;
+  top: 36.7rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #2a1e17;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-4ar1-C7D {
+  box-sizing: border-box;
+  padding: 1.191rem 2.2rem 1.191rem 2.2rem;
+  width: 40rem;
+  height: 4.0819rem;
+  position: absolute;
+  left: 12.1rem;
+  top: 29.8796rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #bcbec0;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #000000;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+.new-password-diK {
+  width: 8.2rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 12rem;
+  top: 27.7rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #2a1e17;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group-ekx7-YaP {
+  width: 31.4rem;
+  height: 2.8093rem;
+  position: absolute;
+  left: 15.4rem;
+  top: 51.3504rem;
+  display: flex;
+  align-items: flex-end;
+}
+.dont-have-an-account-yet-GmH {
+  margin: 0rem 5rem 0.245rem 0rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #2a1e17;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.register-for-free-ALs {
+  margin-right: 0.2rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #2a1e17;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.bi-facebook-HwH {
+  margin-bottom: 1.85rem;
+  height: 1.9593rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.auto-group-fch1-cTm {
+  width: 40rem;
+  height: 4.0819rem;
+  position: absolute;
+  left: 12.4rem;
+  top: 45.8rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d478c;
+  border-radius: 0.5rem;
+}
+#error
+{
+  position: relative;
+
+}

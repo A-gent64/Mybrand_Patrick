@@ -1,0 +1,616 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+a{
+  text-decoration: none;
+}
+nav a{
+  list-style: none;
+  font-size: 32px;
+  text-decoration: none;}
+
+input {
+	border: none;
+}
+body {
+  width: 128rem;
+}.skills-WHZ {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem rgba(0, 0, 0, 0.200000003);
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.auto-group-umud-Dhm {
+  box-sizing: border-box;
+  padding: 0.9rem 1.039rem 3.6rem 1.039rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.auto-group-djn3-Kko {
+  margin: 0rem 1.961rem 17.435rem 0rem;
+  width: calc(100% - 1.9612rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.portfolio-qz3 {
+  margin: 0.065rem 28.761rem 0rem 0rem;
+  display: flex;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 0.8859375;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-361-8iF {
+  margin-bottom: 0.465rem;
+  display: flex;
+  column-gap: 5rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-sA3 {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-Ci7 {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.work-Ymy {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.blog-UQj {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.contact-Ras {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.skills-Zwy {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #0d478c;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-KgF {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9966796637;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.skills-U3M {
+  margin-left: 7.6612rem;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.3636363636;
+  color: #0d478c;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.skills-section-Pw1 {
+  box-sizing: border-box;
+  padding: 4.2rem 2.4rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.cards-section-Y3D {
+  margin-bottom: 4.2rem;
+  width: 100%;
+  height: 23.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.skills-card-fNj {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 6.4rem 7.5rem 6.4rem 4.2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.skills-card-icon-C7m {
+  margin: 0rem 4.2rem 4.4rem 0rem;
+  box-sizing: border-box;
+  padding: 2.17rem 1.946rem 1.515rem 1.831rem;
+  background-color: #f3afa8;
+  border-radius: 3.2rem 3.2rem 0 0;
+  flex-shrink: 0;
+}
+.arrow-3-6yq {
+  width: 2.6233rem;
+  height: 2.7147rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.title-description-26o {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.title-mKH {
+  margin-bottom: 1.2rem;
+  font-size: 2.7rem;
+  font-weight: 600;
+  line-height: 1.5555555556;
+  color: #2d2d2d;
+  font-family: Epilogue, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-animaappcom-uAb {
+  max-width: 38.1rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5882352941;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.skills-card-yAT {
+  box-sizing: border-box;
+  padding: 6.4rem 7.5rem 6.4rem 4.2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.skills-card-icon-hcF {
+  margin: 0rem 4.2rem 4.4rem 0rem;
+  width: 6.4rem;
+  height: 6.4rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.title-description-cz7 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.title-BXR {
+  margin-bottom: 1.2rem;
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height: 1.5555555556;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-animaappcom-inF {
+  max-width: 38.1rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5882352941;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.cards-section-QQB {
+  width: 100%;
+  height: 23.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.skills-card-Z2B {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 6.4rem 7.5rem 6.4rem 4.2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.skills-card-icon-627 {
+  margin: 0rem 4.2rem 4.4rem 0rem;
+  width: 6.4rem;
+  height: 6.4rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.title-description-R4P {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.title-NkK {
+  margin-bottom: 1.2rem;
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height: 1.5555555556;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-animaappcom-KQf {
+  max-width: 38.1rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5882352941;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.skills-card-24B {
+  box-sizing: border-box;
+  padding: 6.4rem 5.3rem 6.4rem 4.2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.skills-card-icon-ARH {
+  margin: 0rem 4.2rem 4.4rem 0rem;
+  width: 6.4rem;
+  height: 6.4rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.title-description-hAK {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.title-rZ1 {
+  margin-bottom: 1.2rem;
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height: 1.5555555556;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-animaappcom-bWb {
+  max-width: 40.3rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5882352941;
+  color: #2d2d2d;
+  font-family: Epilogue, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.auto-group-xr8p-H8X {
+  box-sizing: border-box;
+  padding: 0.3rem 2.4rem 0.9rem 2.4rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.cards-section-QU3 {
+  margin-bottom: 12.9rem;
+  width: 100%;
+  height: 23.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.skills-card-kH1 {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 6.4rem 5.3rem 6.4rem 4.2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.skills-card-icon-5aB {
+  margin: 0rem 4.2rem 4.4rem 0rem;
+  width: 6.4rem;
+  height: 6.4rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.title-description-om5 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.title-xts {
+  margin-bottom: 1.2rem;
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height: 1.5555555556;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-animaappcom-uJK {
+  max-width: 40.3rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5882352941;
+  color: #2d2d2d;
+  font-family: Epilogue, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.skills-card-bwq {
+  box-sizing: border-box;
+  padding: 6.4rem 7.5rem 6.4rem 4.2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.skills-card-icon-vz7 {
+  margin: 0rem 4.2rem 4.4rem 0rem;
+  width: 6.4rem;
+  height: 6.4rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.title-description-TDM {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.title-p3u {
+  margin-bottom: 1.2rem;
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height: 1.5555555556;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-animaappcom-A7m {
+  max-width: 38.1rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5882352941;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.contact-section-rmH {
+  margin: 0rem 2.8rem 0rem 5.1rem;
+  box-sizing: border-box;
+  padding: 4.2rem 2.4rem 2.9rem 2.4rem;
+  width: calc(100% - 7.9rem);
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.lets-work-together-kbm {
+  margin-bottom: 2.4rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.3125;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.contact-section-content-gkK {
+  width: 100%;
+  height: 23.2rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.contact-info-DVM {
+  margin-right: 14.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-animaappcom-this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-animaappcom-NNF {
+  margin-bottom: 4.2rem;
+  max-width: 48.1rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5882352941;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.social-links-EfM {
+  box-sizing: border-box;
+  padding: 0.3rem 0.299rem 0.3rem 0.45rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.discord-ZSj {
+  margin: 0.15rem 3.506rem 0rem 0rem;
+  width: 2.4938rem;
+  height: 2.85rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.facebook-V5V {
+  margin-right: 3.15rem;
+  width: 2.7rem;
+  height: 2.7rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.dribbble-Rjq {
+  margin-right: 3.1503rem;
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nstagram-a6w {
+  margin: 0.007rem 3.149rem 0rem 0rem;
+  width: 2.7012rem;
+  height: 2.7054rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.behance-JHq {
+  margin-bottom: 0.0002rem;
+  width: 3.0013rem;
+  height: 1.8806rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.contact-form-S99 {
+  width: 48.15rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.input-fields-C8K {
+  margin-bottom: 2.4rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.input-field-k9q {
+  margin-bottom: 1.2rem;
+  box-sizing: border-box;
+  padding: 1.6rem 2.4rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5882352941;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #f3f3f3;
+  flex-shrink: 0;
+}
+#error
+{
+  color: red;
+  position:relative;
+  font-size: 2rem;
+  font-family: roboto condensed ,'source sans pro';
+  display: flex;
+  right: -70rem;
+
+}
+
+.input-field-EKu {
+  box-sizing: border-box;
+  padding: 1.6rem 2.4rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5882352941;
+  color: #2d2d2d;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #f3f3f3;
+  flex-shrink: 0;
+}
+.button-Ldq {
+  width: 18.5rem;
+  height: 7.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #2d2d2d;
+}

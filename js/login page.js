@@ -1,30 +1,27 @@
-function valid() { 
-    
-	const email = 
-		document.getElementById("email").value;  
-	const password = 
-		document.getElementById("pass").value; 
-	console.log(password); 
+document.getElementById("loginForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent default form submission
 
-	if (email === "" || !email.includes('@')) { 
-		window.alert
-			("Please enter a valid e-mail address."); 
-		email.focus(); 
-		return false; 
-	} 
+    const email = document.getElementById("email").value;  
+    const password = document.getElementById("pass").value; 
+    const errorDiv = document.getElementById("error");
 
-	if (password === "") { 
-		alert("Please enter your password"); 
-		password.focus(); 
-		return false; 
-	} 
+    if (email === "" || !email.includes('@')) { 
+        errorDiv.innerHTML = "Please enter a valid e-mail address."; 
+        return false; 
+    } 
 
-	if (password.length < 8) { 
-		alert 
-			("Password should be atleast 8 character long"); 
-		password.focus(); 
-		return false; 
+    if (password === "") { 
+        errorDiv.innerHTML = "Please enter your password"; 
+        return false; 
+    } 
 
-	} 
-    return true; 
-}
+    if (password.length < 8) { 
+        errorDiv.innerHTML = "Password should be at least 8 characters long"; 
+        return false; 
+    } 
+
+    // Clear error message if there are no errors
+    errorDiv.innerHTML = "";
+
+    // Process login here (not implemented in this example)
+});

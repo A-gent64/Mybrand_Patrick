@@ -19,7 +19,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     }
     if(password=== "admin@123")
     {
-        let NextUlr=document.getElementById("a");
+        let NextUlr=document.getElementById("aa");
         NextUlr.href="/dashboard/dashboard.html"
     }
     else{

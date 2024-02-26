@@ -26,7 +26,10 @@
       <p class="password-ruy">Password</p>
       <input class="auto-group-6chh-CU3" type="password" id="pass" placeholder="Password">
       <p class="forgot-password-3Dm">Forgot Password?</p>
-      <button  onclick="valid()" class="auto-group-kwqm-Lif">Sign in</button>
+      <a href="/dashboard/dashboard.html">
+        <button class="auto-group-kwqm-Lif">Sign in</button>
+      </a>
+      
       <div class="auto-group-qhud-CVy">
         <div class="dont-have-an-account-yet-KqV">Don’t have an account yet?</div>
         <a href="/sign-up.html" class="register-for-free-RNj"
@@ -40,10 +43,8 @@
 </div>
 
 <script>
-  document.getElementById("m").addEventListener("click", function(event) {
-    event.preventDefault(); // Prevent default anchor behavior
-
-    // Add your custom logic here
+  document.getElementById("loginForm").addEventListener("click", function(event) {
+    event.preventDefault;
     console.log("Link clicked, but reload prevented");
 });
 </script>

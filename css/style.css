@@ -136,10 +136,6 @@ ul {
   font-weight: var(--semibold);
 }
 
-
-img {
-  /* object-fit: cover; */
-}
 .rounded-text {
   background-color: var(--dark);
   align-self: flex-start;
@@ -588,8 +584,6 @@ nav {
   justify-content: center;
 }
 
-.about-section-content-section .button-container {
-}
 
 .about-section-image-container img {
   height: 20%;
@@ -1093,9 +1087,10 @@ textarea {
   width: 30%;
 }
 
-.avatar {
-  width: 40px;
-  height: 40px;
+#avatar {
+  color: var(--dark);
+  width: 50px;
+  height: 50px;
   border-radius: var(--rounded-full);
   background-color: var(--white);
 }
@@ -1132,10 +1127,6 @@ textarea {
   justify-content: start;
   width: 80%;
   margin: var(--p-4) auto;
-}
-
-.blog-likes-section{
-
 }
 .blog-likes-section .rounded-text{
 align-self: center;
@@ -1761,9 +1752,6 @@ align-self: center;
   background-color: var(--dark);
 }
 
-/* dashboard profile */
-.dashboard-profile {
-}
 
 .dashboard-profile-container {
   background-color: var(--darkest);
@@ -1844,7 +1832,7 @@ align-self: center;
 .gradient-text{
   /* background-clip: text; */
   /* font-size: 72px; */
-  background: -webkit-linear-gradient(to right #eee, #333);
+  -webkit-linear-gradient:(right #eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

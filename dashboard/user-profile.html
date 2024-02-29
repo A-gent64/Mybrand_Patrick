@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />   
+<link rel="stylesheet" href="../css/style.css" />
+<link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon">
+    <title>My Brand</title>
+  </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <body>
+    <div class="dashboard-container " >
+    <aside class="dashboard-sidebar">
+        <div class="dashboard-image-logo">
+            <img src="../assets/images/logo.png" alt="logo"/>
+        </div>
+
+        <div class="dashboard-links-container">
+            <a href="./user-dashboard.html" class="rounded-text grey-text category-tag dashboard-link" >
+                <img src="../assets//images//dashboard-icons/dashboard.svg" alt="">
+                <p>Dashboard</p>
+            </a>
+        </div>
+        <div class="rounded-text grey-text category-tag dashboard-link dashboard-logout">
+            <p>Logout</p>
+            <img src="../assets//images//dashboard-icons/logout.svg" alt="">
+
+        </div>
+    </aside>
+
+    <div class="dashboard-content-container">
+
+        <div class="dashboard-header">
+            <div class="input-for">
+              </div>
+            <div class="dashboard-user-info">
+                <svg id="avatar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+                
+                <a href="/dashboard/user-profile.html" ><div>
+                    <p class="white-text small-text title">User1</p>
+                    <p class="grey-text small-text">User</p>
+                </div>
+              </a>
+            </div>
+        </div>
+        <div class="dashboard-content dashboard-profile">
+            <div class=" dashboard-profile-container">
+                <div class="dashboard-change-profile">
+                    <img src="C:\Users\Sims\Desktop\Project branding\assets" width="100px" alt="">
+                    <input type="file" >
+                   </div>
+
+                <div class="dashboard-profile-information">
+                    <div class="profile-section-left">
+                        <div class="input-form">
+                            <p class="white-text title small-text">Names: </p>
+                            <input type="text" name="title" id="title" placeholder="Enter your Names"/>
+                          </div>
+                        <div class="input-form">
+                          </div>
+
+                          <button class="button button-dark text-yellow">Change Profile</button>
+                    </div>
+                    <div class="profile-section-right">
+                        <p class="text-white text-center title">Change Password</p>
+                        <form action="">
+                            <div class="input-form">
+                                <p class="white-text title small-text">Existing password: </p>
+                                <input type="text" name="title" id="title" placeholder="Enter your existing password">
+                              </div>
+                              <div class="input-form">
+                                <p class="white-text title small-text">New password: </p>
+                                <input type="text" name="title" id="title" placeholder="New password" >
+                              </div>
+                              <div class="input-form">
+                                <p class="white-text title small-text">Confirm password: </p>
+                                <input type="text" name="title" id="title" placeholder="Confirm password" >
+                              </div>
+
+                              <button type="submit" class="button"> Change Password</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+ 
+    </div>
+    </div>
+    </div>
+  </body>
+</html>
+

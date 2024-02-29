@@ -22,12 +22,12 @@
     <form id="loginForm" class="fill">
       <div class="login-Pd5">Login</div>
       <div class="email-JEF">Email</div>
-      <input class="auto-group-fsl7-2vw" type="text" id="email" placeholder="username@gmail.com">
+      <input class="auto-group-fsl7-2vw" type="text"onkeyup="validateEmail()" id="email" placeholder="username@gmail.com">
       <p class="password-ruy">Password</p>
-      <input class="auto-group-6chh-CU3" type="password" id="pass" placeholder="Password">
+      <input class="auto-group-6chh-CU3" onkeyup="validatepwd()" type="password" id="pass" placeholder="Password">
       <p class="forgot-password-3Dm">Forgot Password?</p>
-      <a id="aa" class="auto-group-kwqm-Lif">
-        <button style="background-color:#0d478c;border:none;">Sign in</button>
+      <a  class="auto-group-kwqm-Lif">
+        <button onclick="validateAndSubmit(event)" id="aa" style="background-color:#0d478c;border:none;">Sign in</button>
       </a>
       
       <div class="auto-group-qhud-CVy">
@@ -43,7 +43,7 @@
 </div>
 
 <script>
-  document.getElementById("loginForm").addEventListener("click", function(event) {
+  document.getElementById("aa").addEventListener("click", function(event) {
     event.preventDefault;
     console.log("Link clicked, but reload prevented");
 });

@@ -71,3 +71,8 @@ let allBlogs = JSON.parse(localStorage.getItem('blogs')) || [];
 console.log("All blogs",allBlogs)
 
 let blogRow = document.getElementById('blog-row');
+
+const logout = () => {
+    localStorage.setItem('adminIsLoggedIn', false);
+    console.log("User successfully logged out");
+};

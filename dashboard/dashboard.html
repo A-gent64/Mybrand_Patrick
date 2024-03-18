@@ -44,10 +44,22 @@
                 <p>Skills</p>
             </a>
         </div>
-        <div class="rounded-text grey-text category-tag dashboard-link dashboard-logout">
+        <div id="logoutButton" class="rounded-text grey-text category-tag dashboard-link dashboard-logout">
             <p>Logout</p>
-            <img src="../assets//images//dashboard-icons/logout.svg" alt="">
+            <img src="../assets/images/dashboard-icons/logout.svg" alt="">
         </div>
+        
+        <script>
+            // Define the logout function
+            function logout() {
+                localStorage.setItem('adminIsLoggedIn', false);
+                console.log("User successfully logged out");
+            }
+        
+            // Attach event listener to the logout button
+            document.getElementById('logoutButton').addEventListener('click', logout);
+        </script>
+        
     </aside>
 
     <div class="dashboard-content-container">
@@ -219,3 +231,4 @@
     </div>
   </body>
 </html>
+<script src="/js/dashboard.js"></script>

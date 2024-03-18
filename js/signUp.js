@@ -51,14 +51,13 @@ function validateAndSubmit() {
     var email = document.getElementById('email').value;
     var password = document.getElementById('pass').value;
 
-    fetch('https://mybrand-shebelle-api.onrender.com/signup', {
+    fetch('https://my-brand-rwirangira.netlify.app/sign-up', {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
         },
-        body: JSON.stringify(userData)
-    })
-    .then(response => {
+        body: JSON.stringify({ email: email, password: password }),
+    }).then(response => {
         if (!response.ok) {
             throw new Error('Failed to register user');
         }
@@ -66,29 +65,13 @@ function validateAndSubmit() {
     })
     .then(data => {
         // Handle successful registration response from the server
-        document.getElementById('email').value = '';
         document.getElementById('password').value = '';
         document.getElementById('name').value='';
         submitError.innerHTML = "<div class='success-message'><i class='bx bxs-check-circle' id='success'></i> User registered successfully.</div>";
         setTimeout(function () { submitError.innerHTML = ''; }, 4000);
     })
-    .then(data => {
-        var role = data.role;
-        var token = data.token;
-        var email = data.email;
-
-        localStorage.setItem('token', token)
-        localStorage.setItem('currentUserEmail', email);
-
-        if (role === 'admin') {
-            localStorage.setItem('adminIsLoggedIn', true);
-            window.location.href = "dashboard.html";
-        } else {
-            localStorage.setItem('userIsLoggedIn', true);
-            window.location.href = "login.html";
-        }
-    }).catch(error => {
+    .catch(error => {
         submitError.innerHTML = "<div class='error-message'><i class='bx bx-error-alt' id='danger'></i> " + error.message + "</div>";
         setTimeout(function () { submitError.innerHTML = ''; }, 4000);
-    
+    })
 }

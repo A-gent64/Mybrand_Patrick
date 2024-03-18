@@ -1,65 +1,83 @@
-var emailError = document.getElementById('emailError');
-var pwdError = document.getElementById('pwdError');
-var submitError = document.getElementById('submitError');
+var submitError = document.getElementById('error');
 
 function validateEmail() {
     var email = document.getElementById('email').value;
     if (email.trim() === "") {
-        emailError.innerHTML = "Email is required";
-        setTimeout(function () { emailError.innerHTML = ''; }, 3000);
+        submitError.innerHTML = "Email is required";
+        setTimeout(function () { submitError.innerHTML = ''; }, 3000);
         return false;
     }
 
     if (!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
-        emailError.innerHTML = 'Invalid email format';
-        setTimeout(function () { emailError.innerHTML = ''; }, 3000);
+        submitError.innerHTML = 'Invalid email format';
+        setTimeout(function () { submitError.innerHTML = ''; }, 3000);
         return false;
     }
 
-    emailError.innerHTML = "<i class='bx bxs-check-circle'></i>";
+    submitError.innerHTML = "<i class='bx bxs-check-circle'></i>";
     return true;
 }
 
-function validatePassword() {
-    var password = document.getElementById('password').value;
+function validatepwd() {
+    var password = document.getElementById('pass').value;
     if (password.trim() === "") {
-        pwdError.innerHTML = "Password is required";
-        setTimeout(function () { pwdError.innerHTML = ''; }, 3000);
+        submitError.innerHTML = "Password is required";
+        setTimeout(function () { submitError.innerHTML = ''; }, 3000);
         return false;
     }
-    pwdError.innerHTML = "<i class='bx bxs-check-circle'></i>";
+    submitError.innerHTML = "<i class='bx bxs-check-circle'></i>";
+    return true;
+}
+
+function validate2pwd() {
+    var password1 = document.getElementById('pass').value;
+    var password2 = document.getElementById('pass1').value;
+    if (password1 !== password2) {
+        submitError.innerHTML = "Passwords must be the same";
+        setTimeout(function () { submitError.innerHTML = ''; }, 3000);
+        return false;
+    }
+    submitError.innerHTML = "<i class='bx bxs-check-circle'></i>";
     return true;
 }
 
 function validateAndSubmit() {
-    if (!validateEmail() || !validatePassword()) {
+    if (!validateEmail() || !validatepwd()) {
         submitError.innerHTML = "<i class='bx bx-error-alt' id='danger'></i>";
         setTimeout(function () { submitError.innerHTML = ''; }, 3000);
         return false;
     }
 
     var email = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
+    var password = document.getElementById('pass').value;
 
-    fetch('http://localhost:7000/login', {
+    fetch('https://mybrand-shebelle-api.onrender.com/signup', {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json',
+            'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ email: email, password: password }),
+        body: JSON.stringify(userData)
     })
     .then(response => {
         if (!response.ok) {
-            throw new Error('Failed to login');
+            throw new Error('Failed to register user');
         }
         return response.json();
+    })
+    .then(data => {
+        // Handle successful registration response from the server
+        document.getElementById('email').value = '';
+        document.getElementById('password').value = '';
+        document.getElementById('name').value='';
+        submitError.innerHTML = "<div class='success-message'><i class='bx bxs-check-circle' id='success'></i> User registered successfully.</div>";
+        setTimeout(function () { submitError.innerHTML = ''; }, 4000);
     })
     .then(data => {
         var role = data.role;
         var token = data.token;
         var email = data.email;
 
-        localStorage.setItem('token', token);
+        localStorage.setItem('token', token)
         localStorage.setItem('currentUserEmail', email);
 
         if (role === 'admin') {
@@ -67,22 +85,10 @@ function validateAndSubmit() {
             window.location.href = "dashboard.html";
         } else {
             localStorage.setItem('userIsLoggedIn', true);
-            window.location.href = "userdashboard.html";
+            window.location.href = "login.html";
         }
-    })
-    .catch(error => {
-        submitError.innerHTML = "Invalid email or password";
-        setTimeout(function () { submitError.innerHTML = ''; }, 3000);
-    });
+    }).catch(error => {
+        submitError.innerHTML = "<div class='error-message'><i class='bx bx-error-alt' id='danger'></i> " + error.message + "</div>";
+        setTimeout(function () { submitError.innerHTML = ''; }, 4000);
+    
 }
-
-window.onload = function () {
-    var userIsLoggedIn = localStorage.getItem('userIsLoggedIn');
-    var adminIsLoggedIn = localStorage.getItem('adminIsLoggedIn');
-
-    if (userIsLoggedIn) {
-        window.location.href = "userdashboard.html";
-    } else if (adminIsLoggedIn) {
-        window.location.href = "dashboard.html";
-    }
-};
